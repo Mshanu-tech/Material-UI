@@ -6,7 +6,7 @@ function signup() {
   return (
     <>
     <h1>Hello</h1>
-    <Button variant="contained">Hello world</Button>
+    <Button onClick={console.log("Hai Morning")} variant="contained">Hello world</Button>
     </>
   )
 }
