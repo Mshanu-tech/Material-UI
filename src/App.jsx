@@ -1,10 +1,12 @@
 import React from 'react'
-import { Text } from './pages/Typography'
+import { MuiTypography } from './pages/Typography'
+import { MuiButton } from './pages/MuiButton'
 
 export const App = () => {
   return (
     <div>
-        <Text/>
+        {/* <MuiTypography/> */}
+        <MuiButton/>
     </div>
   )
 }
